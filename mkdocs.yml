@@ -1,0 +1,35 @@
+site_name: Unofficial Odin FAQ
+repo_url: https://github.com/Schwapo?tab=repositories
+edit_uri: ""
+repo_name: Schwapo/Unofficial-Odin-FAQ
+
+theme: 
+  name: 'material'
+  logo: assets/odin-logo.svg
+  favicon: assets/odin-logo.svg
+
+features: 
+    - content.code.annotate
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      linenums: true
+
+extra_css:
+  - stylesheets/codehilite.css
+  - stylesheets/dark_theme.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/antonio-rafael-antunes-miranda-6030a31b0/
+    - icon: fontawesome/brands/github
+      link: https://github.com/Schwapo?tab=repositories
