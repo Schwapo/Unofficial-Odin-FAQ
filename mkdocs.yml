@@ -33,3 +33,6 @@ extra:
       link: https://www.linkedin.com/in/antonio-rafael-antunes-miranda-6030a31b0/
     - icon: fontawesome/brands/github
       link: https://github.com/Schwapo?tab=repositories
+
+plugins:
+  - git-revision-date-localized
