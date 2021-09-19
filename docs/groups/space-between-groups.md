@@ -8,7 +8,7 @@ As of now the [VerticalGroup] is the only group that has parameters to add verti
 public float SomeField;
 ```
 
-The [VerticalGroup's] sole purpose is to add vertical spacing using the `PaddingTop` & `PaddingBottom` parameters. The same principle applies to all other groups.
+The [VerticalGroup's] sole purpose in this case is to add vertical spacing using the `PaddingTop` & `PaddingBottom` parameters. The same principle applies to all other groups.
 
 
 
