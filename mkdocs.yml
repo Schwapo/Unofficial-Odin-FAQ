@@ -5,6 +5,7 @@ repo_name: Schwapo/Unofficial-Odin-FAQ
 
 theme: 
   name: 'material'
+  custom_dir: 'overrides'
   logo: assets/odin-logo.svg
   favicon: assets/odin-logo.svg
 
