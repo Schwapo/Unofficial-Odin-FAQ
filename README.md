@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c5796822-9746-40a3-bcf7-37f0634ec371/deploy-status)](https://app.netlify.com/sites/odin-faq/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c8b056de-aa12-4bdd-a33c-87573b60d0aa/deploy-status)](https://app.netlify.com/sites/odin-faq/deploys)
 
 # Welcome
 
