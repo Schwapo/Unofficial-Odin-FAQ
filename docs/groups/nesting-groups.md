@@ -31,8 +31,6 @@ If you create a nested group path and the previous "folder" doesn't exist you ge
 
 ---
 
-<br/>
-
 [Nesting TabGroups] has a slightly different behaviour you can learn about it [here]
 
 
