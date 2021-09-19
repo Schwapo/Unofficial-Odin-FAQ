@@ -48,7 +48,7 @@ public float SomeOtherField;
 
 ---
 
-> If you have missing or duplicate elements, make sure to check your group path this is a sign that you did not nest your group correctly.
+> If you have missing or duplicate elements, make sure to check your group path. This is a sign that you did not nest your group correctly.
 
 
 
