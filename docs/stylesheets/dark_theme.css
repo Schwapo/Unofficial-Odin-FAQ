@@ -173,6 +173,12 @@ article preview text color
     color: #F56641;
 }
 
+.md-nav--primary .md-nav__item--active>.md-nav__link:focus,
+.md-nav--primary .md-nav__item--active>.md-nav__link:hover
+{
+    color: #F56641;
+}
+
 .md-typeset hr
 {
     border-bottom: 0.05rem solid #333333;
