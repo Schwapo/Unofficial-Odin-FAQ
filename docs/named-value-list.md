@@ -5,11 +5,15 @@
 | ----- | -------- |
 | asset | TElement |
 
+---
+
 ### [CustomValueDrawer]
 | Name           | Type                         |
 | -------------- | ---------------------------- |
 | label          | [GUIContent]                 |
 | callNextDrawer | [Func]<[GUIContent], [bool]> |
+
+---
 
 ### [TableMatrix]
 | Name    | Type     |
@@ -20,6 +24,8 @@
 | array   | TArray   |
 | x       | [int]    |
 | y       | [int]    |
+
+---
 
 ### [OnCollectionChanged]
 | Name | Type                   |
