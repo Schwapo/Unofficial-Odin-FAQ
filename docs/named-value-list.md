@@ -1,5 +1,13 @@
 # Named Value List
 
+### All Resolvers
+| Name     | Type                |
+| -------- | ------------------- |
+| property | [InspectorProperty] |
+| value    | TValue              |
+
+---
+
 ### [AssetList]
 | Name  | Type     |
 | ----- | -------- |
@@ -41,6 +49,7 @@
 [CustomValueDrawer]: https://www.odininspector.com/documentation/sirenix.odininspector.customvaluedrawerattribute
 [OnCollectionChanged]: https://www.odininspector.com/documentation/sirenix.odininspector.oncollectionchangedattribute
 
+[InspectorProperty]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.inspectorproperty
 [CollectionChangeInfo]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.collectionchangeinfo 
 
 [GUIContent]: https://docs.unity3d.com/ScriptReference/GUIContent.html
