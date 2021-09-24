@@ -266,3 +266,18 @@ summary
 {
     background-color: #333333!important;
 }
+
+.md-dialog
+{
+    background-color: #F56641;
+}
+
+table
+{
+  background-color: #191919!important;
+}
+
+thead
+{
+  background-color: #000000;
+}
