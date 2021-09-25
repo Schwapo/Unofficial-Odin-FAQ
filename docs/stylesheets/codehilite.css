@@ -54,6 +54,7 @@ actual syntax highlighting
 .highlight .c1 { color: #57A64A !important } /* Comment Single */
 .highlight .na { color: #FFBD5A !important } /* Attribute Name */
 .highlight .nc { color: #4EDCAF !important } /* Class Name */
+.highlight .nn { color: #4EDCAF !important } /* Name.Namespace */
  
 .codehilite pre { color: #FAFAFA !important; background-color: transparent !important; }
 .codehilite .hll { background-color: #272822 !important; }
@@ -78,7 +79,6 @@ actual syntax highlighting
 .codehilite .ni { color: #f8f8f2 !important } /* Name.Entity */
 .codehilite .ne { color: #a6e22e !important } /* Name.Exception */
 .codehilite .nl { color: #f8f8f2 !important } /* Name.Label */
-.codehilite .nn { color: #f8f8f2 !important } /* Name.Namespace */
 .codehilite .nx { color: #a6e22e !important } /* Name.Other */
 .codehilite .py { color: #f8f8f2 !important } /* Name.Property */
 .codehilite .nt { color: #f92672 !important } /* Name.Tag */
