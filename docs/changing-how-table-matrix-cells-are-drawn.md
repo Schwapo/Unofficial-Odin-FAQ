@@ -1,4 +1,4 @@
-# Changing How [TableMatrix] Cells Are Drawn
+# Changing How TableMatrix Cells Are Drawn
 
 If you want to change how the [TwoDimensionalArrayDrawer] draws its cells you have 
 to add the [TableMatrix] attribute to the field and supply a method name to
