@@ -28,7 +28,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/codehilite.css
-  - stylesheets/dark_theme.css
+  - stylesheets/odin.css
 
 extra:
   social:

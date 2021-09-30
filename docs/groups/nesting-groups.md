@@ -7,7 +7,13 @@ I'm also going to provide a few examples of varying complexity.
 
 
 ??? info "Group Paths"
-    Understanding Odin's group paths is the key to mastering nesting all groups in pretty much every combination imaginable. Odin uses group paths to decide how groups get nested because the order in which attributes are specified in C# is not guaranteed (see [Attribute Specification]). Let's begin by creating our first group/folder.
+    Understanding Odin's group paths are the key to mastering nesting all groups 
+    in pretty much every combination imaginable. Odin uses group paths to decide 
+    how groups get nested because the order in which attributes are specified in 
+    C# is not guaranteed and therefore can't reliably be used to group elements 
+    on its own (see [Attribute Specification]). 
+    
+    Let's begin by creating our first group.
 
     === "SomeMonoBehaviour.cs"
     ```CSharp

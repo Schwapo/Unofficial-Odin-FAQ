@@ -1,11 +1,8 @@
 {% include "links.txt" %}
 
-# Welcome
+# Hello <img src="assets/wave.gif" width="30">
 
-![](assets/duck.png)
-
-Hey, my name is Antonio Rafael Antunes Miranda a.k.a. Schwapo. I've created this website to answer frequently asked questions from the Odin Inspector [Discord Channel].
-I will try to update this repository whenever I feel that a question is getting asked a lot and I have an answer for it.
+My name is Antonio Rafael Antunes Miranda. I've created this website to answer frequently asked questions from the Odin Inspector [Discord Channel]. I will try to update this repository whenever I feel that a question is getting asked a lot and I have an answer for it.
 
 ---
 

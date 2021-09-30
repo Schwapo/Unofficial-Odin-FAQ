@@ -5,7 +5,6 @@
 By using a combination of the [Property States] system and Odin's [OnInspectorInit] attribute we can set the state of the foldout everytime the inspector initializes.
 
 ```CSharp
-// Example class
 [System.Serializable]
 public class SomeClass
 {
