@@ -1,10 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c8b056de-aa12-4bdd-a33c-87573b60d0aa/deploy-status)](https://app.netlify.com/sites/odin-faq/deploys)
+![](unofficial-odin-faq.png)
 
-# Welcome
-
-![](site/assets/duck.png)
-
-Hey, my name is Antonio Rafael Antunes Miranda a.k.a. Schwapo. I've created this website to answer frequently asked questions from the Odin Inspector [Discord Channel].
+Hey,  
+my name is Antonio Rafael Antunes Miranda a.k.a. Schwapo. I've created this website to answer frequently asked questions from the Odin Inspector [Discord Channel].
 I will try to update this repository whenever I feel that a question is getting asked a lot and I have an answer for it.
 
 ---
