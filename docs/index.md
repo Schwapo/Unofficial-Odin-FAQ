@@ -1,3 +1,5 @@
+{% include "links.txt" %}
+
 # Welcome
 
 ![](assets/duck.png)
@@ -7,16 +9,5 @@ I will try to update this repository whenever I feel that a question is getting 
 
 ---
 
-> This is not an official Odin FAQ and I'm not in any way associated with Sirenix.
-
-
-
-
-
-
-
-
-[Attribute Examples]: https://odininspector.com/attributes
-[Documentation]: https://odininspector.com/documentation
-[Tutorials]: https://odininspector.com/tutorials
-[Discord Channel]: https://discord.com/channels/355444042009673728/355817720182341632
+???+ info 
+    This is not an official Odin FAQ and I'm not in any way associated with Sirenix.

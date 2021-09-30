@@ -1,3 +1,5 @@
+{% include "links.txt" %}
+
 # Foldout Expanded By Default
 
 By using a combination of the [Property States] system and Odin's [OnInspectorInit] attribute we can set the state of the foldout everytime the inspector initializes.
@@ -16,16 +18,4 @@ public class SomeClass
 public SomeClass ClassInstance;
 ```
 
-The *@* sign denotes this string as an [Attribute Expression] which makes everything behind it be basically treated as normal code. `$property` is a [Named Value] and gives us the [InspectorProperty] of the `ClassInstance` field. It holds the foldout's state which we can then set directly.
-
-
-
-
-
-
-
-[OnInspectorInit]: https://www.odininspector.com/attributes/on-inspector-init-attribute
-[Property States]: https://www.odininspector.com/tutorials/using-attributes/property-states
-[Attribute Expression]: https://www.odininspector.com/tutorials/using-attributes/attribute-expressions
-[Named Value]: https://www.odininspector.com/tutorials/value-and-action-resolvers/named-values
-[InspectorProperty]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.inspectorproperty
+The *@* sign denotes this string as an [Attribute Expression] which makes everything behind it be basically treated as normal code. `$property` is a [NamedValue] and gives us the [InspectorProperty] of the `ClassInstance` field. It holds the foldout's state which we can then set directly.

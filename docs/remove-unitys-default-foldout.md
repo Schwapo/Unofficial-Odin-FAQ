@@ -1,3 +1,5 @@
+{% include "links.txt" %}
+
 # Remove Unity's Default Foldout
 
 ![](assets/someclass-expanded.png "SomeClass Expanded")
@@ -41,13 +43,3 @@ public SomeClass ClassInstance;
 ![](assets/someclass-expanded-inline-property-hide-label.png "SomeClass with InlineProperty and HideLabel applied to it. ")
 
 You can also add these attributes to the `ClassInstance` instead if you only want that specific instance to not have the drop-down.
-
-
-
-
-
-
-
-
-[HideLabel]: https://www.odininspector.com/attributes/hide-label-attribute
-[InlineProperty]: https://www.odininspector.com/attributes/inline-property-attribute

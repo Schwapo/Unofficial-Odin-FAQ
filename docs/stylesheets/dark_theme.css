@@ -244,7 +244,12 @@ summary
 
 .linenos
 {
-    background-color: #131313!important;
+    background-color: #191919!important;
+}
+
+.linenodiv
+{
+  box-shadow: -0.05rem 0 rgb(255 255 255 / 10%) inset!important;
 }
 
 .highlighttable .linenodiv pre
@@ -280,4 +285,97 @@ table
 thead
 {
   background-color: #000000;
+}
+
+.md-typeset .bug>.admonition-title, .md-typeset .bug>summary
+{
+  border-color: #F56641;
+}
+
+.md-typeset .admonition.bug, .md-typeset details.bug
+{
+  border-color: #F56641;
+}
+
+.md-typeset .bug>.admonition-title, .md-typeset .bug>summary
+{
+  background-color: #131313;
+}
+
+.md-typeset .admonition, .md-typeset details
+{
+  background-color: #191919;
+  color: #EEEEEE;
+}
+
+summary
+{
+  color: #EEEEEE!important;
+}
+
+.md-typeset .bug>.admonition-title:before, .md-typeset .bug>summary:before
+{
+  background-color: #F56641;
+}
+
+.md-typeset .tabbed-set>input:checked+label
+{
+  color: #F56641;
+  border-color: #F56641;
+}
+
+.md-typeset .tabbed-set>label
+{
+  color: #EEEEEE;
+}
+
+.md-typeset .tabbed-set>label:hover
+{
+  color: #F56641;
+}
+
+.md-typeset .info>.admonition-title, .md-typeset .info>summary, .md-typeset .todo>.admonition-title, .md-typeset .todo>summary
+{
+  border-color: #F56641;
+  background-color: #131313;
+}
+
+.md-typeset .info>.admonition-title:before, .md-typeset .info>summary:before, .md-typeset .todo>.admonition-title:before, .md-typeset .todo>summary:before
+{
+  background-color: #F56641;
+}
+
+.md-typeset .admonition.info, .md-typeset .admonition.todo, .md-typeset details.info, .md-typeset details.todo
+{
+  border-color: #F56641;
+}
+
+.linenos
+{
+  background-color: rebeccapurple;
+}
+
+.md-typeset .tabbed-set>label
+{
+  font-size: .55rem;
+}
+
+.md-typeset .example>.admonition-title, .md-typeset .example>summary
+{
+  border-color: #F56641;
+}
+
+.md-typeset .example>.admonition-title, .md-typeset .example>summary
+{
+  background-color: #131313;
+}
+
+.md-typeset .admonition.example, .md-typeset details.example
+{
+  border-color: #F56641;
+}
+
+.md-typeset .example>.admonition-title:before, .md-typeset .example>summary:before
+{
+  background-color: #F56641;
 }

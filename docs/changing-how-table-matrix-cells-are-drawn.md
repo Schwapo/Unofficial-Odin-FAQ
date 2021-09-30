@@ -1,3 +1,5 @@
+{% include "links.txt" %}
+
 # Changing How TableMatrix Cells Are Drawn
 
 If you want to change how the [TwoDimensionalArrayDrawer] draws its cells you have 
@@ -34,58 +36,51 @@ public class SomeMonoBehaviour : SerializedMonoBehaviour
 
 ---
 
+
 Here is a small complete example that shows how you could change the preview
 texture that Odin draws for your class inside the [TwoDimensionalArrayDrawer].
 
-```CSharp
-using UnityEngine;
+=== "SomeMonoBehaviour.cs"
+    ```CSharp
+    using Sirenix.OdinInspector;
+    using Sirenix.Utilities.Editor;
+    using UnityEngine;
 
-[CreateAssetMenu]
-public class Item : ScriptableObject
-{
-    public string Name;
-    public string Description;
-    public Texture2D Preview;
-}
-```
-
-```CSharp
-using Sirenix.OdinInspector;
-using Sirenix.Utilities.Editor;
-using UnityEngine;
-
-public class SomeMonoBehaviour : SerializedMonoBehaviour
-{
-    [TableMatrix(DrawElementMethod = nameof(DrawElement), SquareCells = true)]
-    public Item[,] Items = new Item[3, 3];
-
-    private Item DrawElement(Rect rect, Item value)
+    public class SomeMonoBehaviour : SerializedMonoBehaviour
     {
-        return (Item)SirenixEditorFields.UnityPreviewObjectField(
-            rect: rect,
-            value: value,
-            texture: value?.Preview, // We provide a custom preview texture
-            type: typeof(Item)
-        );
-    } 
-}
-```
+        [TableMatrix(DrawElementMethod = nameof(DrawElement), SquareCells = true)]
+        public Item[,] Items = new Item[3, 3];
 
-| Default                              | Custom DrawElementMethod            |
-| ------------------------------------ | ----------------------------------- |
-| ![](assets/table-matrix-default.png) | ![](assets/table-matrix-custom.png) |
+        private Item DrawElement(Rect rect, Item value)
+        {
+            return (Item)SirenixEditorFields.UnityPreviewObjectField(
+                rect: rect,
+                value: value,
+                texture: value?.Preview, // We provide a custom preview texture
+                type: typeof(Item)
+            );
+        } 
+    }
+    ```
+
+=== "Item.cs"
+    ```CSharp
+    using UnityEngine;
+
+    [CreateAssetMenu]
+    public class Item : ScriptableObject
+    {
+        public string Name;
+        public string Description;
+        public Texture2D Preview;
+    }
+    ```
+
+---
+
+=== "Default"
+    ![](assets/table-matrix-default.png)
 
 
-
-
-
-
-
-
-
-[TwoDimensionalArrayDrawer]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.drawers.twodimensionalarraydrawer-2
-[TableMatrix]: https://www.odininspector.com/documentation/sirenix.odininspector.tablematrixattribute
-[ActionResolvers]: https://www.odininspector.com/tutorials/value-and-action-resolvers/using-action-resolvers
-[NamedValues]: https://www.odininspector.com/tutorials/value-and-action-resolvers/named-values
-[Rect]: https://docs.unity3d.com/ScriptReference/Rect.html
-[int]: https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0
+=== "Custom"
+    ![](assets/table-matrix-custom.png)

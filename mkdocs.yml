@@ -17,6 +17,9 @@ features:
     - toc.integrate
 
 markdown_extensions:
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.inlinehilite
@@ -36,4 +39,5 @@ extra:
 
 plugins:
   - git-revision-date-localized
+  - include-markdown
   - search
