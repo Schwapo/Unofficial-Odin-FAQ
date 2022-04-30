@@ -1,0 +1,62 @@
+<!--- ODIN --->
+[ AssetList                 ]: https://www.odininspector.com/documentation/sirenix.odininspector.assetlistattribute
+[ ActionResolver            ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/using-action-resolvers
+[ ActionResolvers           ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/using-action-resolvers
+[ Attribute Expression      ]: https://www.odininspector.com/tutorials/using-attributes/attribute-expressions
+[ Attribute Expressions     ]: https://www.odininspector.com/tutorials/using-attributes/attribute-expressions
+[ BoxGroup                  ]: https://www.odininspector.com/attributes/box-group-attribute
+[ CollectionChangeInfo      ]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.collectionchangeinfo 
+[ CustomValueDrawer         ]: https://www.odininspector.com/documentation/sirenix.odininspector.customvaluedrawerattribute
+[ Documentation             ]: https://www.odininspector.com/documentation
+[ FoldoutGroup              ]: https://www.odininspector.com/attributes/foldout-group-attribute
+[ Group Attributes          ]: https://www.odininspector.com/attributes/#groups
+[ HideIf                    ]: https://www.odininspector.com/attributes/hide-if-attribute
+[ HideLabel                 ]: https://www.odininspector.com/attributes/hide-label-attribute
+[ HideReferenceObjectPicker ]: https://www.odininspector.com/attributes/hide-reference-object-picker-attribute
+[ HorizontalGroup           ]: https://www.odininspector.com/attributes/horizontal-group-attribute
+[ InlineProperty            ]: https://www.odininspector.com/attributes/inline-property-attribute
+[ InspectorProperty         ]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.inspectorproperty
+[ NamedValue                ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/named-values
+[ NamedValues               ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/named-values
+[ Odin 3.0.1.0              ]: https://odininspector.com/patch-notes/3-0-1-0
+[ OnCollectionChanged       ]: https://www.odininspector.com/documentation/sirenix.odininspector.oncollectionchangedattribute
+[ OnInspectorInit           ]: https://www.odininspector.com/attributes/on-inspector-init-attribute
+[ PreviewField              ]: https://www.odininspector.com/attributes/preview-field-attribute
+[ Property States           ]: https://www.odininspector.com/tutorials/using-attributes/property-states
+[ Resolver                  ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/resolving-strings-to-stuff
+[ ShowIf                    ]: https://www.odininspector.com/attributes/show-if-attribute
+[ TabGroup                  ]: https://www.odininspector.com/attributes/tab-group-attribute
+[ TabGroups                 ]: https://www.odininspector.com/attributes/tab-group-attribute
+[ TableMatrix               ]: https://www.odininspector.com/documentation/sirenix.odininspector.tablematrixattribute
+[ Tutorials                 ]: https://www.odininspector.com/tutorials
+[ TwoDimensionalArrayDrawer ]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.drawers.twodimensionalarraydrawer-2
+[ VerticalGroup             ]: https://www.odininspector.com/attributes/vertical-group-attribute
+[ VerticalGroups            ]: https://www.odininspector.com/attributes/vertical-group-attribute
+
+
+<!--- MARKDOWN --->
+[ Nesting Groups            ]: nesting-groups.md
+
+
+
+<!--- UNITY --->
+[ GUIContent                ]: https://docs.unity3d.com/ScriptReference/GUIContent.html
+[ Rect                      ]: https://docs.unity3d.com/ScriptReference/Rect.html
+
+
+
+<!--- MICROSOFT --->
+[ Attribute Specification   ]: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/attributes#attribute-specification
+[ bool                      ]: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool
+[ Func                      ]: https://docs.microsoft.com/en-us/dotnet/api/system.func-2?view=net-5.0
+[ int                       ]: https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0
+
+
+
+<!--- GITHUB --->
+[ ObjectPreview             ]: https://github.com/Schwapo/ObjectPreview
+
+
+
+<!--- DISCORD --->
+[ Discord Channel           ]: https://discord.com/channels/355444042009673728/355817720182341632
