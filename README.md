@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c8b056de-aa12-4bdd-a33c-87573b60d0aa/deploy-status)](https://app.netlify.com/sites/odin-faq/deploys)
 <a href="https://odin-faq.netlify.app/"><img src="unofficial-odin-faq.png"></img></a>
 <p align="center">
 https://odin-faq.netlify.app/
