@@ -109,7 +109,7 @@ I'm also going to add the possibility to hold <key>ctrl</key> while doing so to 
 	[EditorIcons]  
 	Used to have nice icons for our buttons.
 
-	[FoldoutGroup]
+	[FoldoutGroup]  
 	Used to draw a foldable group around our properties.
 
 	[InspectorProperty]  
