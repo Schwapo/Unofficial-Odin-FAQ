@@ -122,7 +122,7 @@ I'm also going to add the possibility to hold <key>ctrl</key> while doing so to 
 	Used to automagically pass the InspectorProperty argument into the DrawExpandStateControls function.
 
 	[OnValueChanged]  
-	Used to get a callback whenever our bool changes it's values so that we can change the property's state accordingly.
+	Used to get a callback whenever our bool changes its values so that we can change the property's state accordingly.
 
 	[Property States]  
 	Used to access the property's state and set if it should be expanded or not.
