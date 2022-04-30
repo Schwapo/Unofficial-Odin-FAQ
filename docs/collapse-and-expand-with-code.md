@@ -14,65 +14,65 @@ I'm also going to add the possibility to hold <key>ctrl</key> while doing so to 
 ??? example "Example"
 
 	=== "SomeMonoBehaviour.cs"
-	```CSharp
-	using Sirenix.OdinInspector;
-	using Sirenix.OdinInspector.Editor;
-	using Sirenix.Utilities.Editor;
-	using System.Collections.Generic;
-	using UnityEngine;
+		```CSharp
+		using Sirenix.OdinInspector;
+		using Sirenix.OdinInspector.Editor;
+		using Sirenix.Utilities.Editor;
+		using System.Collections.Generic;
+		using UnityEngine;
 
-	public class SomeMonoBehaviour : SerializedMonoBehaviour
-	{
-		[ListDrawerSettings(OnTitleBarGUI = "DrawExpandStateControls")]
-		public List<SomeData> ListOfSomeData = new List<SomeData>();
-
-		private void DrawExpandStateControls(InspectorProperty property)
+		public class SomeMonoBehaviour : SerializedMonoBehaviour
 		{
-			// If one of the buttons is pressed, set the childrens expanded state.
-			// If Event.current.control is true, meaning the user is holding ctrl, expand/collapse them recursively.
+			[ListDrawerSettings(OnTitleBarGUI = "DrawExpandStateControls")]
+			public List<SomeData> ListOfSomeData = new List<SomeData>();
 
-			if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowDown))
+			private void DrawExpandStateControls(InspectorProperty property)
 			{
-				this.SetChildExpandedState(property, true, Event.current.control);
+				// If one of the buttons is pressed, set the childrens expanded state.
+				// If Event.current.control is true, meaning the user is holding ctrl, expand/collapse them recursively.
+
+				if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowDown))
+				{
+					this.SetChildExpandedState(property, true, Event.current.control);
+				}
+				
+				if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowUp))
+				{
+					this.SetChildExpandedState(property, false, Event.current.control);
+				}
 			}
-			
-			if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowUp))
+
+			private void SetChildExpandedState(InspectorProperty property, bool state, bool recursive = false)
 			{
-				this.SetChildExpandedState(property, false, Event.current.control);
+				var childProperties = recursive 
+					? property.Children.Recurse() 
+					: property.Children;
+
+				foreach (var child in childProperties)
+				{
+					child.State.Expanded = state;
+				}
 			}
 		}
-
-		private void SetChildExpandedState(InspectorProperty property, bool state, bool recursive = false)
-		{
-			var childProperties = recursive 
-				? property.Children.Recurse() 
-				: property.Children;
-
-			foreach (var child in childProperties)
-			{
-				child.State.Expanded = state;
-			}
-		}
-	}
-	```
-
+		```
+	
 	=== "Test Data"
-	```CSharp
-	public class SomeData
-	{
-		public string SomeString;
-		public float SomeFloat;
-		public bool SomeBool;
-		public SomeOtherData SomeOtherData = new SomeOtherData();
-	}
+		```CSharp
+		public class SomeData
+		{
+			public string SomeString;
+			public float SomeFloat;
+			public bool SomeBool;
+			public SomeOtherData SomeOtherData = new SomeOtherData();
+		}
 
-	public class SomeOtherData
-	{
-		public string SomeOtherString;
-		public float SomeOtherFloat;
-		public bool SomeOtherBool;
-	}
-	```
+		public class SomeOtherData
+		{
+			public string SomeOtherString;
+			public float SomeOtherFloat;
+			public bool SomeOtherBool;
+		}
+		```
 
 	<p align="center">
 	![](../assets/collapse-and-expand.png)
