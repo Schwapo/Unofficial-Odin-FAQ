@@ -11,98 +11,99 @@ I'm also going to add the possibility to hold <key>ctrl</key> while doing so to 
 
 ---
 
-=== "SomeMonoBehaviour.cs"
-```CSharp
-using Sirenix.OdinInspector;
-using Sirenix.OdinInspector.Editor;
-using Sirenix.Utilities.Editor;
-using System.Collections.Generic;
-using UnityEngine;
+??? example "Example"
 
-public class SomeMonoBehaviour : SerializedMonoBehaviour
-{
-    [ListDrawerSettings(OnTitleBarGUI = "DrawExpandStateControls")]
-    public List<SomeData> ListOfSomeData = new List<SomeData>();
+	=== "SomeMonoBehaviour.cs"
+	```CSharp
+	using Sirenix.OdinInspector;
+	using Sirenix.OdinInspector.Editor;
+	using Sirenix.Utilities.Editor;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-    private void DrawExpandStateControls(InspectorProperty property)
-    {
-        // If one of the buttons is pressed, set the childrens expanded state.
-        // If Event.current.control is true, meaning the user is holding ctrl, expand/collapse them recursively.
+	public class SomeMonoBehaviour : SerializedMonoBehaviour
+	{
+		[ListDrawerSettings(OnTitleBarGUI = "DrawExpandStateControls")]
+		public List<SomeData> ListOfSomeData = new List<SomeData>();
 
-        if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowDown))
-        {
-            this.SetChildExpandedState(property, true, Event.current.control);
-        }
-        
-        if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowUp))
-        {
-            this.SetChildExpandedState(property, false, Event.current.control);
-        }
-    }
+		private void DrawExpandStateControls(InspectorProperty property)
+		{
+			// If one of the buttons is pressed, set the childrens expanded state.
+			// If Event.current.control is true, meaning the user is holding ctrl, expand/collapse them recursively.
 
-    private void SetChildExpandedState(InspectorProperty property, bool state, bool recursive = false)
-    {
-        var childProperties = recursive 
-            ? property.Children.Recurse() 
-            : property.Children;
+			if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowDown))
+			{
+				this.SetChildExpandedState(property, true, Event.current.control);
+			}
+			
+			if (SirenixEditorGUI.ToolbarButton(EditorIcons.ArrowUp))
+			{
+				this.SetChildExpandedState(property, false, Event.current.control);
+			}
+		}
 
-        foreach (var child in childProperties)
-        {
-            child.State.Expanded = state;
-        }
-    }
-}
-```
-=== "Used Test Data"
-```CSharp
-public class SomeData
-{
-	public string SomeString;
-	public float SomeFloat;
-	public bool SomeBool;
-	public SomeOtherData SomeOtherData = new SomeOtherData();
-}
+		private void SetChildExpandedState(InspectorProperty property, bool state, bool recursive = false)
+		{
+			var childProperties = recursive 
+				? property.Children.Recurse() 
+				: property.Children;
 
-public class SomeOtherData
-{
-	public string SomeOtherString;
-	public float SomeOtherFloat;
-	public bool SomeOtherBool;
-}
-```
+			foreach (var child in childProperties)
+			{
+				child.State.Expanded = state;
+			}
+		}
+	}
+	```
 
+	=== "Test Data"
+	```CSharp
+	public class SomeData
+	{
+		public string SomeString;
+		public float SomeFloat;
+		public bool SomeBool;
+		public SomeOtherData SomeOtherData = new SomeOtherData();
+	}
 
-<p align="center">
-![](../assets/collapse-and-expand.png)
-</p>
+	public class SomeOtherData
+	{
+		public string SomeOtherString;
+		public float SomeOtherFloat;
+		public bool SomeOtherBool;
+	}
+	```
 
+	<p align="center">
+	![](../assets/collapse-and-expand.png)
+	</p>
 
-##### Odin concepts / API's used throughout the example
+??? info "Odin concepts / API's used throughout the example"
 
-[ActionResolvers]
-> Used to resolve the `"DrawExpandStateControls"` string that's passed to the `OnTitleBarGUI` parameter into an executable action.
+	[ActionResolvers]  
+	Used to resolve the `"DrawExpandStateControls"` string that's passed to the `OnTitleBarGUI` parameter into an executable action.
 
-[EditorIcons]
-> Used to have nice icons for our buttons.
+	[EditorIcons]  
+	Used to have nice icons for our buttons.
 
-[InspectorProperty]
-> Used to access the property's state.
+	[InspectorProperty]  
+	Used to access the property's state.
 
-[ListDrawerSettings]
-> Used to add the buttons to the list's title bar.
+	[ListDrawerSettings]  
+	Used to add the buttons to the list's title bar.
 
-[NamedValues]
-> Used to automagically pass the InspectorProperty argument into the DrawExpandStateControls function.
+	[NamedValues]  
+	Used to automagically pass the InspectorProperty argument into the DrawExpandStateControls function.
 
-[Property States]
-> Used to access the property's state and set if it should be expanded or not.
+	[Property States]  
+	Used to access the property's state and set if it should be expanded or not.
 
-[Recurse]
-> Used to return an IEnumerable that recursively yields all children of the property, depth first.
+	[Recurse]  
+	Used to return an IEnumerable that recursively yields all children of the property, depth first.
 
-[SerializedMonoBehaviour]
-> Used so that our test data will automatically have a foldout.
-> The serialization is not the important part here.
+	[SerializedMonoBehaviour]  
+	Used so that our test data will automatically have a foldout.
+	The serialization is not the important part here.
 
-[SirenixEditorGUI]
-> Used to draw the title bar's buttons in the same style as the default add button.
+	[SirenixEditorGUI]  
+	Used to draw the title bar's buttons in the same style as the default add button.
