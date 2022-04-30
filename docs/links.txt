@@ -7,7 +7,8 @@
 [ BoxGroup                  ]: https://www.odininspector.com/attributes/box-group-attribute
 [ CollectionChangeInfo      ]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.collectionchangeinfo 
 [ CustomValueDrawer         ]: https://www.odininspector.com/documentation/sirenix.odininspector.customvaluedrawerattribute
-[ Documentation             ]: https://www.odininspector.com/documentation
+[ Documentation             ]: https://www.odininspector.com/documentationA
+[ EditorIcons               ]: https://odininspector.com/documentation/sirenix.utilities.editor.editoricons
 [ FoldoutGroup              ]: https://www.odininspector.com/attributes/foldout-group-attribute
 [ Group Attributes          ]: https://www.odininspector.com/attributes/#groups
 [ HideIf                    ]: https://www.odininspector.com/attributes/hide-if-attribute
@@ -16,14 +17,19 @@
 [ HorizontalGroup           ]: https://www.odininspector.com/attributes/horizontal-group-attribute
 [ InlineProperty            ]: https://www.odininspector.com/attributes/inline-property-attribute
 [ InspectorProperty         ]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.inspectorproperty
+[ ListDrawerSettings        ]: https://odininspector.com/documentation/sirenix.odininspector.listdrawersettingsattribute
 [ NamedValue                ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/named-values
 [ NamedValues               ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/named-values
+[ Odin 3.0.1.0              ]: https://odininspector.com/patch-notes/3-0-1-0
 [ OnCollectionChanged       ]: https://www.odininspector.com/documentation/sirenix.odininspector.oncollectionchangedattribute
 [ OnInspectorInit           ]: https://www.odininspector.com/attributes/on-inspector-init-attribute
 [ PreviewField              ]: https://www.odininspector.com/attributes/preview-field-attribute
 [ Property States           ]: https://www.odininspector.com/tutorials/using-attributes/property-states
+[ Recurse                   ]: https://odininspector.com/documentation/sirenix.odininspector.editor.propertychildren
 [ Resolver                  ]: https://www.odininspector.com/tutorials/value-and-action-resolvers/resolving-strings-to-stuff
+[ SerializedMonoBehaviour   ]: https://odininspector.com/documentation/sirenix.odininspector.serializedmonobehaviour
 [ ShowIf                    ]: https://www.odininspector.com/attributes/show-if-attribute
+[ SirenixEditorGUI          ]: https://odininspector.com/documentation/sirenix.utilities.editor.sirenixeditorgui
 [ TabGroup                  ]: https://www.odininspector.com/attributes/tab-group-attribute
 [ TabGroups                 ]: https://www.odininspector.com/attributes/tab-group-attribute
 [ TableMatrix               ]: https://www.odininspector.com/documentation/sirenix.odininspector.tablematrixattribute
@@ -31,7 +37,6 @@
 [ TwoDimensionalArrayDrawer ]: https://www.odininspector.com/documentation/sirenix.odininspector.editor.drawers.twodimensionalarraydrawer-2
 [ VerticalGroup             ]: https://www.odininspector.com/attributes/vertical-group-attribute
 [ VerticalGroups            ]: https://www.odininspector.com/attributes/vertical-group-attribute
-
 
 
 <!--- MARKDOWN --->

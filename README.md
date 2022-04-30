@@ -8,7 +8,7 @@ I will try to update this repository whenever I feel that a question is getting 
 
 ---
 
-> This is not an official Odin FAQ and I'm not in any way associated with Sirenix.
+> This is not an official Odin FAQ.
 
 
 

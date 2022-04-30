@@ -8,41 +8,40 @@
       
       
       
-      
       <link rel="icon" href="../../assets/odin-logo.svg">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
     
     
       
-        <title>Nesting Groups - Unofficial Odin FAQ</title>
+        <title>Nesting groups - Unofficial Odin FAQ</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.802231af.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
         
       
     
     
     
       
+        
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="../../stylesheets/codehilite.css">
     
-      <link rel="stylesheet" href="../../stylesheets/dark_theme.css">
+      <link rel="stylesheet" href="../../stylesheets/odin.css">
     
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-
 
     
     
@@ -57,7 +56,6 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -74,7 +72,10 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+    
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Unofficial Odin FAQ" class="md-header__button md-logo" aria-label="Unofficial Odin FAQ" data-md-component="logo">
       
@@ -82,7 +83,7 @@
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -94,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Nesting Groups
+              Nesting groups
             
           </span>
         </div>
@@ -104,22 +105,21 @@
     
     
       <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
         <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
       
@@ -139,24 +139,26 @@
     
     
       <div class="md-header__source">
-        
-<a href="https://github.com/Schwapo?tab=repositories/" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/Schwapo/Unofficial-Odin-FAQ" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    Schwapo
+    Schwapo/Unofficial-Odin-FAQ
   </div>
 </a>
       </div>
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
+        
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -181,14 +183,13 @@
   </label>
   
     <div class="md-nav__source">
-      
-<a href="https://github.com/Schwapo?tab=repositories/" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/Schwapo/Unofficial-Odin-FAQ" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    Schwapo
+    Schwapo/Unofficial-Odin-FAQ
   </div>
 </a>
     </div>
@@ -204,7 +205,22 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Welcome
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changing-how-table-matrix-cells-are-drawn/" class="md-nav__link">
+        Changing how table matrix cells are drawn
       </a>
     </li>
   
@@ -219,7 +235,22 @@
   
     <li class="md-nav__item">
       <a href="../../changing-the-preview-field-preview/" class="md-nav__link">
-        Changing The PreviewField Preview
+        Changing the preview field preview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../collapse-and-expand-with-code/" class="md-nav__link">
+        Collapse and expand with code
       </a>
     </li>
   
@@ -234,7 +265,7 @@
   
     <li class="md-nav__item">
       <a href="../../foldout-expanded-by-default/" class="md-nav__link">
-        Foldout Expanded By Default
+        Foldout expanded by default
       </a>
     </li>
   
@@ -249,7 +280,7 @@
   
     <li class="md-nav__item">
       <a href="../../hide-the-reference-picker/" class="md-nav__link">
-        Hide The Reference Picker
+        Hide the reference picker
       </a>
     </li>
   
@@ -278,8 +309,23 @@
   
   
     <li class="md-nav__item">
+      <a href="../../named-value-list/" class="md-nav__link">
+        Named value list
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../remove-unitys-default-foldout/" class="md-nav__link">
-        Remove Unity's Default Foldout
+        Remove unitys default foldout
       </a>
     </li>
   
@@ -309,7 +355,7 @@
   
     <li class="md-nav__item">
       <a href="../../showif-hideif-multiple-conditions/" class="md-nav__link">
-        ShowIf / HideIf Multiple Conditions
+        Showif hideif multiple conditions
       </a>
     </li>
   
@@ -328,20 +374,25 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" checked>
       
-      <label class="md-nav__link" for="__nav_9">
-        Groups
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12">
+          Groups
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Groups" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+        <label class="md-nav__title" for="__nav_12">
           <span class="md-nav__icon md-icon"></span>
           Groups
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
     
@@ -356,36 +407,27 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Nesting Groups
+        Nesting groups
       </a>
       
     </li>
   
 
+            
           
             
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../nesting-tab-groups/" class="md-nav__link">
-        Nesting  TabGroups
-      </a>
-    </li>
-  
-
-          
-            
+              
   
   
   
     <li class="md-nav__item">
       <a href="../space-between-groups/" class="md-nav__link">
-        Space Between Groups
+        Space between groups
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -405,6 +447,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -422,50 +465,399 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/edit/master/docs/groups/nesting-groups.md" title="Edit this page" class="md-content__button md-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-                  </a>
-                
-                
-                <h1 id="nesting-groups">Nesting Groups</h1>
-<p>Groups are nested like folder paths. For example If you want to nest a <a href="https://www.odininspector.com/attributes/horizontal-group-attribute">HorizontalGroup</a> inside a <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> you do:</p>
+
+
+<!--- ODIN --->
+<!--- MARKDOWN --->
+<!--- UNITY --->
+<!--- MICROSOFT --->
+<!--- GITHUB --->
+<!--- DISCORD --->
+<h1 id="nesting-groups">Nesting Groups</h1>
+<p>This tutorial demonstrates how to nest Odin's <a href="https://www.odininspector.com/attributes/#groups">Group Attributes</a>. 
+We will learn how group paths work and how to handle special cases like the <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroup</a> attribute. 
+I'm also going to provide a few examples of varying complexity.</p>
+<details class="info">
+<summary>Group Paths</summary>
+<p>Understanding Odin's group paths are the key to mastering nesting all groups 
+in pretty much every combination imaginable. Odin uses group paths to decide 
+how groups get nested because the order in which attributes are specified in 
+C# is not guaranteed and therefore can't reliably be used to group elements 
+on its own (see <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/attributes#attribute-specification">Attribute Specification</a>). </p>
+<p>Let's begin by creating our first group.</p>
+<div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">SomeMonoBehaviour.cs</label><div class="tabbed-content"></div>
+</div>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[BoxGroup(&quot;Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+We added a <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> attribute to our field and passed it to the string <code class="highlight"><span class="s">&quot;Box&quot;</span><span class="w"></span></code>. 
+Let's have a look at the <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> constructor and see what this string is used for.</p>
+<div class="tabbed-set" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">BoxGroup - Constructor</label><div class="tabbed-content"></div>
+</div>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[BoxGroup(&quot;Box&quot;)]</span>
-<span class="k">public</span> <span class="kt">float</span> <span class="n">SomeField</span><span class="p">;</span>
-
-<span class="na">[HorizontalGroup(&quot;Box/Horizontal&quot;)]</span>
-<span class="k">public</span> <span class="kt">float</span> <span class="n">SomeOtherField</span><span class="p">;</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="nf">BoxGroupAttribute</span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="k">group</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">showLabel</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">true</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">centerLabel</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">false</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">order</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">0f</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">:</span><span class="w"> </span><span class="k">base</span><span class="p">(</span><span class="k">group</span><span class="p">,</span><span class="w"> </span><span class="n">order</span><span class="p">)</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">ShowLabel</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">showLabel</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="n">CenterLabel</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">centerLabel</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
 </code></pre></div>
 </td></tr></table>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>📁 Box
-└─ 📁 Horizontal
-</code></pre></div>
-</td></tr></table>
-<p>Visualizing it like this also shows that you always have to create the previous "folder" since you cannot create a folder inside another folder that doesn't exist. That doesn't mean that the group attribute needs to be before other groups that are nested inside of it as order doesn't matter when defining groups. It just means that it needs to exist somewhere inside this file.</p>
+<p>As we can see the <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> attribute takes a few arguments, but we'll just focus on the
+<code class="highlight"><span class="kt">string</span><span class="w"> </span><span class="k">group</span><span class="w"></span></code> parameter for now. We can see that the constructor's body
+doesn't do anything with this value and instead passes it to the base constructor.
+Let's have a look at that.</p>
+<div class="tabbed-set" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">PropertyGroupAttribute - Base Constructor</label><div class="tabbed-content"></div>
+</div>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1">// Error since the SomeGroupName &quot;folder&quot; doesn&#39;t exist</span>
-<span class="na">[HorizontalGroup(&quot;SomeGroupName/Horizontal&quot;)]</span>
-<span class="k">public</span> <span class="kt">float</span> <span class="n">AnotherField</span><span class="p">;</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="nf">PropertyGroupAttribute</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">groupId</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">order</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">GroupID</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">groupId</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="na">[...]</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 </td></tr></table>
-<hr />
-<p>If you create a nested group path and the previous "folder" doesn't exist you get an exception like this:</p>
-<blockquote>
-<p>Group attribute 'HorizontalGroupAttribute' on member 'AnotherField' expected a group with the name 'SomeGroupName' to exist in declaring type 'SomeMonoBehaviour'. Its ID was 'SomeGroupName/Horizontal'.</p>
-</blockquote>
-<hr />
-<p><br/></p>
-<p><a href="../nesting-tab-groups/">Nesting TabGroups</a> has a slightly different behaviour you can learn about it <a href="../nesting-tab-groups/">here</a></p>
-                
-              
-              
-                
+<p>There we have it! The string we pass is used as the group's identifier and we will
+use it to refer to this group when we want to nest it with other groups.
+Let's test this knowledge and nest a <a href="https://www.odininspector.com/attributes/foldout-group-attribute">FoldoutGroup</a> inside the <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> we created earlier.
+Groups are nested like folder paths so the only thing we need to do is to</p>
+<ol>
+<li>Add the group attribute</li>
+<li>Write the first folders name/identifier</li>
+<li>Add a <code>/</code></li>
+<li>Write the second "folders" name/identifier</li>
+</ol>
+<div class="tabbed-set" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">SomeMonoBehaviour.cs</label><div class="tabbed-content"></div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[BoxGroup(&quot;Box&quot;)]</span><span class="w"></span>
+<span class="na">[FoldoutGroup(&quot;Box/Foldout&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+<p>The final folder hierarchy now looks like this:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>📁 Box
+└─ 📁 Foldout
+</code></pre></div>
+</td></tr></table>
+<p>We can see that we have a <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> which has a <a href="https://www.odininspector.com/attributes/foldout-group-attribute">FoldoutGroup</a> inside of it.
+This is the main benefit of visualizing it like a folder hierarchy, but it also shows
+that for a group to be nested inside another one, it must first be separately created.
+Imagine that we didn't declare the <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> our code would look like this:</p>
+<div class="tabbed-set" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">SomeMonoBehaviour.cs</label><div class="tabbed-content"></div>
+</div>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[FoldoutGroup(&quot;Box/Foldout&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+We're trying to create a Foldout "folder" inside a Box "folder", but we didn't
+create the Box "folder" so we can't put anything inside of it.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>❌ Box
+└─ 📁 Foldout
+</code></pre></div>
+</td></tr></table>
+<p>You do not have to write the <a href="https://www.odininspector.com/attributes/box-group-attribute">BoxGroup</a> attribute before the <a href="https://www.odininspector.com/attributes/foldout-group-attribute">FoldoutGroup</a>. It just
+needs to exist inside the file. Since as we've discussed in the beginning, order doesn't matter for attributes. So this still works:</p>
+<div class="tabbed-set" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">SomeMonoBehaviour.cs</label><div class="tabbed-content">
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[FoldoutGroup(&quot;Box/Foldout&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+</div>
+</div>
+<p>These principles apply to all groups and can theoretically be nested as much as you want.
+We add another group attribute and pass it the full path of identifiers as if it were a folder path.
+The only group that behaves slightly differently is the <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroup</a>, which we will look at next.</p>
+</details>
+<details class="info">
+<summary>TabGroups are (not) special</summary>
+<p>How to nest <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroups</a> is probably the most asked question when it comes to nesting groups.
+We will soon see that it's easier than you might think. Let's start with an example of how
+most people instinctively try to nest a <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroup</a> and see why that doesn't work.</p>
+<div class="tabbed-set" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><label for="__tabbed_7_1">SomeMonoBehaviour.cs</label><div class="tabbed-content">
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[TabGroup(&quot;MyTabs&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;MyTabs/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+</div>
+</div>
+<p>Based on our knowledge about group paths, this should work, so what is going on here? Let's investigate a bit and look at the <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroups</a> constructors to get a better understanding.</p>
+<div class="tabbed-set" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><label for="__tabbed_8_1">First TabGroup - Constructor</label><div class="tabbed-content">
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="nf">TabGroupAttribute</span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="n">tab</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">useFixedHeight</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">false</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">order</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">0f</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">:</span><span class="w"> </span><span class="k">this</span><span class="p">(</span><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">tab</span><span class="p">,</span><span class="w"> </span><span class="n">useFixedHeight</span><span class="p">,</span><span class="w"> </span><span class="n">order</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+</div>
+<input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><label for="__tabbed_8_2">Second TabGroup - Constructor</label><div class="tabbed-content">
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="nf">TabGroupAttribute</span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="k">group</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">tab</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">useFixedHeight</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">false</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">order</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">0f</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">:</span><span class="w"> </span><span class="k">base</span><span class="p">(</span><span class="k">group</span><span class="p">,</span><span class="w"> </span><span class="n">order</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+</div>
+</div>
+<p>The first thing that we've found out is that the <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroup</a> has two
+constructors. We're using the first one in our example since it's the only one
+that has only one non-optional parameter <code class="highlight"><span class="kt">string</span><span class="w"> </span><span class="n">tab</span><span class="w"></span></code>. Judging by the names we can see that 
+we're passing the tab name and not the group identifier. This explains why it's not working,
+but how does Odin identify the group if we don't specify one ourselves? The answer is simple,
+Odin calls the second constructor and assigns <code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code> as the group identifier.</p>
+<p>Now you're maybe thinking "I just have to change my identifier to <code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code> and I'm good to go".
+Unfortunately, this is still not the solution. The <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroups</a> identifier consists of the group identifier
+and the tab name and if we think about it, it makes sense. How else could Odin know in what tab you want to
+put your nested groups? We can now build our group path successfully by</p>
+<ol>
+<li>Writing <code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code></li>
+<li>Adding a <code>\</code></li>
+<li>Writin the tab name</li>
+</ol>
+<div class="tabbed-set" data-tabs="9:1"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><label for="__tabbed_9_1">SomeMonoBehaviour.cs</label><div class="tabbed-content"></div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1">// I changed the name to &#39;Tab01&#39; instead of MyTabs </span>
+<span class="c1">// since we now know that this is actually the tab name.</span>
+<span class="na">[TabGroup(&quot;Tab01&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;_DefaultTabGroup/Tab01/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+<p>We now have a working <a href="https://www.odininspector.com/attributes/tab-group-attribute">TabGroup</a> nesting example, but it's still not ideal.
+I know, I know, but we're almost there. Using this method has several drawbacks.</p>
+<ol>
+<li><code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code> is hard to read.</li>
+<li><code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code> seems to magically exist without us creating it in the file leading to confusion.</li>
+<li>What do we do if we have multiple TabGroups? They would all have the same group identifier leading to undesired and hard to debug behaviour.</li>
+</ol>
+<p>What's the solution? It's quite simple. Instead of letting Odin call the second constructor and passing it the
+<code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code> string, we call it ourselves and pass the group identifier and the tab name at once.
+We can then just substitute the <code class="highlight"><span class="s">&quot;_DefaultTabGroup&quot;</span><span class="w"></span></code> string with our group identifier.</p>
+<div class="tabbed-set" data-tabs="10:1"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><label for="__tabbed_10_1">SomeMonoBehaviour.cs</label><div class="tabbed-content"></div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[TabGroup(&quot;MyTabGroup&quot;, &quot;Tab01&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;MyTabGroup/Tab01/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+<p>That's it! You should now be able to nest all of Odin's groups no matter the complexity
+by simply applying the rules you learned. If you're having problems remembering the correct
+syntax just keep the folder analogy in mind.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>📁 MyTabGroup
+└─ 📁 Tab01
+   └─ 📁 Box
+</code></pre></div>
+</td></tr></table>
+</details>
+<details class="example">
+<summary>Examples</summary>
+<details class="example">
+<summary>BoxGroups in a BoxGroup</summary>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[BoxGroup(&quot;Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
 
+<span class="na">[HorizontalGroup(&quot;Box/Horizontal&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Box/Horizontal/BoxRight&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeOtherField</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[BoxGroup(&quot;Box/Horizontal/BoxLeft&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">AnotherOne</span><span class="p">;</span><span class="w">    </span>
+</code></pre></div>
+</td></tr></table>
+<p align="center">
+<img alt="" src="../../assets/boxes-in-a-box.png" />
+</p></p>
+</details>
+<details class="example">
+<summary>BoxGroup in a ShowIfGroup</summary>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[ShowIfGroup(&quot;PossiblyVisibleGroup&quot;, Condition = nameof(ShowGroup))]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;PossiblyVisibleGroup/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+
+<span class="k">public</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">ShowGroup</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+<p align="center">
+<img alt="" src="../../assets/box-in-a-show-if.png" />
+</p></p>
+</details>
+<details class="example">
+<summary>BoxGroups in a TabGroup</summary>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[TabGroup(&quot;Tabs&quot;, &quot;Tab01&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Tabs/Tab01/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[TabGroup(&quot;Tabs&quot;, &quot;Tab02&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Tabs/Tab02/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeOtherField</span><span class="p">;</span><span class="w">  </span>
+</code></pre></div>
+</td></tr></table>
+<p align="center">
+<img alt="" src="../../assets/boxes-in-a-tab-01.png" />
+</p>
+<p align="center">
+<img alt="" src="../../assets/boxes-in-a-tab-02.png" />
+</p></p>
+</details>
+<details class="example">
+<summary>TabGroup in a TabGroup</summary>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[TabGroup(&quot;OuterTabGroup&quot;, &quot;OuterTab01&quot;)]</span><span class="w"></span>
+<span class="na">[TabGroup(&quot;OuterTabGroup/OuterTab01/InnerTabGroup&quot;, &quot;InnerTab01&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[TabGroup(&quot;OuterTabGroup&quot;, &quot;OuterTab02&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeOtherField</span><span class="p">;</span><span class="w"> </span>
+</code></pre></div>
+</td></tr></table>
+<p align="center">
+<img alt="" src="../../assets/tab-in-a-tab.png" />
+</p></p>
+</details>
+<details class="example">
+<summary>BoxGroup in a TabGroup in a ToggleGroup</summary>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[ToggleGroup(&quot;Toggled&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">Toggled</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[TabGroup(&quot;Toggled/Tabs&quot;, &quot;Tab01&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[TabGroup(&quot;Toggled/Tabs&quot;, &quot;Tab02&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Toggled/Tabs/Tab02/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeOtherField</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+<p align="center">
+<img alt="" src="../../assets/box-in-a-tab-in-a-toggle.png" />
+</p></p>
+</details>
+<details class="example">
+<summary>What even...?</summary>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">[ToggleGroup(&quot;Toggled&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">Toggled</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[HorizontalGroup(&quot;Toggled/Horizontal&quot;)]</span><span class="w"></span>
+<span class="na">[FoldoutGroup(&quot;Toggled/Horizontal/FoldoutRight&quot;)]</span><span class="w"></span>
+<span class="na">[TabGroup(&quot;Toggled/Horizontal/FoldoutRight/TabsRight&quot;, &quot;Tab01&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Toggled/Horizontal/FoldoutRight/TabsRight/Tab01/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeField</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[TabGroup(&quot;Toggled/Horizontal/FoldoutRight/TabsRight&quot;, &quot;Tab02&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Toggled/Horizontal/FoldoutRight/TabsRight/Tab02/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">SomeOtherField</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[FoldoutGroup(&quot;Toggled/Horizontal/FoldoutLeft&quot;)]</span><span class="w"></span>
+<span class="na">[TabGroup(&quot;Toggled/Horizontal/FoldoutLeft/TabsLeft&quot;, &quot;Tab01&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Toggled/Horizontal/FoldoutLeft/TabsLeft/Tab01/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">AnotherOne</span><span class="p">;</span><span class="w"></span>
+
+<span class="na">[TabGroup(&quot;Toggled/Horizontal/FoldoutLeft/TabsLeft&quot;, &quot;Tab02&quot;)]</span><span class="w"></span>
+<span class="na">[BoxGroup(&quot;Toggled/Horizontal/FoldoutLeft/TabsLeft/Tab02/Box&quot;)]</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">YetAnotherOne</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+<p align="center">
+<img alt="" src="../../assets/what-even.png" />
+</p></p>
+</details>
+</details>
+<details class="bug">
+<summary>Gotchas</summary>
+<p>If you have missing or duplicate elements, make sure to check your group path,
+this is a sign that you did not nest your group correctly.</p>
+</details>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 30, 2021</span>
+      
+    
+  </small>
+</div>
 
               
             </article>
@@ -480,33 +872,33 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../showif-hideif-multiple-conditions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ShowIf / HideIf Multiple Conditions" rel="prev">
+        <a href="../../showif-hideif-multiple-conditions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Showif hideif multiple conditions" rel="prev">
           <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Previous
               </span>
-              ShowIf / HideIf Multiple Conditions
+              Showif hideif multiple conditions
             </div>
           </div>
         </a>
       
       
         
-        <a href="../nesting-tab-groups/" class="md-footer__link md-footer__link--next" aria-label="Next: Nesting  TabGroups" rel="next">
+        <a href="../space-between-groups/" class="md-footer__link md-footer__link--next" aria-label="Next: Space between groups" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Nesting  TabGroups
+              Space between groups
             </div>
           </div>
           <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
           </div>
         </a>
       
@@ -516,32 +908,30 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        Made by Antonio Rafael Antunes Miranda
+        Made by Antonio Rafael Antunes Miranda a.k.a. Schwapo
         
       </div>
-      
-  <div class="md-footer-social">
+      <div class="md-social">
+  
+    
     
       
       
-        
-        
-      
-      <a href="https://www.linkedin.com/in/antonio-rafael-antunes-miranda-6030a31b0/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-      </a>
+    
+    <a href="https://www.linkedin.com/in/antonio-rafael-antunes-miranda-6030a31b0/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
     
       
       
-        
-        
-      
-      <a href="https://github.com/Schwapo?tab=repositories" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-      </a>
     
-  </div>
-
+    <a href="https://github.com/Schwapo?tab=repositories" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
     </div>
   </div>
 </footer>
@@ -550,10 +940,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.756773cc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
       
     
   </body>
